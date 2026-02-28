@@ -80,7 +80,27 @@ La figure ci‑dessous (générée par le notebook) montre l'évolution de l'ES 
 
 ![ES glissant](results/image.png)  
 
+## 📁 Structure du projet
 
+```
+frtb-market-risk/
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── telecharger_marche.py      # Téléchargement robuste des données
+│   └── preparer_donnees.py        # Nettoyage et calcul des rendements
+├── src/
+│   ├── sa_delta.py                # Calcul du capital Delta SA
+│   ├── ima_es.py                  # Expected Shortfall (historique et stressé)
+│   ├── backtest.py                 # Test de Kupiec
+│   └── liquidite.py                # Ajustement de liquidité (simplifié)
+├── notebooks/
+│   └── frtb_calcul_complet.ipynb   # Notebook Colab complet avec résultats
+├── results/
+│   └── (figures générées)
+└── tests/
+    └── test_frtb.py                 # Tests unitaires
+```
 
 
 ## 📄 Licence

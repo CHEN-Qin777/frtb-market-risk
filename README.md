@@ -1,6 +1,6 @@
-# Projet 3 : Calcul du capital réglementaire FRTB (SA + IMA)
+# Calcul du capital réglementaire FRTB (SA + IMA)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/votre_nom/frtb-market-risk/blob/main/notebooks/frtb_calcul_complet.ipynb)
+
 
 ## 📌 À propos
 
@@ -36,8 +36,7 @@ pip install -r requirements.txt
 ### Version locale
 Exécutez les scripts dans l'ordre ou utilisez les modules dans votre propre code.
 
-### Version Colab
-Ouvrez le notebook [`frtb_calcul_complet.ipynb`](notebooks/frtb_calcul_complet.ipynb) dans Google Colab et exécutez toutes les cellules.
+
 
 ## 📊 Résultats obtenus
 
@@ -81,7 +80,6 @@ La figure ci‑dessous (générée par le notebook) montre l'évolution de l'ES 
 
 ![ES glissant](results/image.png)  
 
-## 📁 Structure du projet
 
 
 
